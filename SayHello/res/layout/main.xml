@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" android:padding="4dip"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="8dip"
+        android:text="Say hello, or not"/>
+
+    <Button android:id="@+id/hello"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Hello">
+        <requestFocus />
+    </Button>
+
+    <Button android:id="@+id/goaway"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Go away">
+    </Button>
+
+</LinearLayout>
